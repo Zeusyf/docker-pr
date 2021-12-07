@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  miner:
+    image: julian3xl/utopia-miner:latest
+    cap_add:
+      - IPC_LOCK
+    network_mode: bridge
+    environment:
+      WALLET_ADDR: C91B4C57E8BD05C8E3DF0BD99437C32D38983BA6FEC27BC7E8FAB6149C71FB45
