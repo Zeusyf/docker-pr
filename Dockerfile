@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-LABEL maintainer="julian3xl <julian3xl@gmail.com>"
+LABEL maintainer="r.zeus <r.zeusyf@gmail.com>"
 
 RUN apt-get update && apt-get install -y bash curl libglib2.0-0
 RUN curl -o /tmp/uam-latest_amd64.deb "https://update.u.is/downloads/uam/linux/uam-latest_amd64.deb" && \
