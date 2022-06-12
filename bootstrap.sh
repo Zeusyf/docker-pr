@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if [[ ! -z "${WALLET_ADDR}" ]]; then
-  /opt/uam/uam --pk ${WALLET_ADDR:-} --no-ui
+if [[ ! -z "${E8B8118BDD82954C27A56D31FEAFDA455E123EB4DC8F4299C2CA0E7ADB5CC03F}" ]]; then
+  /opt/uam/uam --pk ${E8B8118BDD82954C27A56D31FEAFDA455E123EB4DC8F4299C2CA0E7ADB5CC03F:-} --no-ui
 else
   /bin/bash
 fi
